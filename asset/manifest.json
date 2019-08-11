@@ -1,0 +1,17 @@
+{
+    "name": "Mike Lewis Holdings",
+    "short_name": "ML Holdings",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#FFF",
+    "theme_color": "#FFF",
+    "description": "Subject to change...",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "./icon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

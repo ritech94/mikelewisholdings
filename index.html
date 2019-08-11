@@ -18,6 +18,7 @@
         <link rel="apple-touch-icon" href="./asset/icon.png">
 
         <!-- Manifest -->
+        <link rel="manifest" href="./asset/manifest.json">
 
         <!-- CSS Styles -->
         <!-- Bootstrap -->
@@ -67,7 +68,17 @@
             <!-- About Section -->
             <section id="about">
                 <div class="container">
-                    <h3>About Us</h3>
+                    <h3>About</h3>
+
+                    <h4>Mike Lewis Holdings</h4>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur repellat quis omnis impedit iure possimus amet quaerat, perferendis at labore totam, eos qui consectetur praesentium ratione. Dicta dignissimos minus mollitia.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia ipsum porro quod eum necessitatibus voluptas iste dolorem perspiciatis commodi error expedita voluptate sunt praesentium, laudantium facere veniam ex sequi. Aliquid.</p>
+
+                    <h4>Mike Lewis</h4>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, qui distinctio? Vero facilis magni id. Quidem doloremque hic quisquam quia dolorum rerum animi, autem nulla provident nostrum expedita eveniet quaerat.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consectetur magnam et, labore quaerat rerum. Temporibus ab error nihil atque, sequi odit ad! Reiciendis dolorum velit magnam deserunt doloremque vero.</p>
                 </div>
             </section>
 
@@ -75,6 +86,57 @@
             <section id="services">
                 <div class="container">
                     <h3>Services</h3>
+
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <h4>
+                                <i class="fas fa-hand-holding-usd"></i>
+                                Income Tax
+                            </h4>
+                            <hr>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur incidunt eius, libero explicabo ratione praesentium reiciendis et. Dolores perferendis soluta libero sapiente illum facilis, velit optio iste reiciendis explicabo quam.</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <h4>
+                                <i class="fas fa-money-bill-alt"></i>
+                                Payroll
+                            </h4>
+                            <hr>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quo maxime animi assumenda nisi sequi saepe aut itaque temporibus sed, voluptate doloremque optio ipsa repellendus inventore sunt eum illum officiis?</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <h4>
+                                <i class="fas fa-file-invoice-dollar"></i>
+                                Bookkeeping
+                            </h4>
+                            <hr>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, porro qui unde ex possimus quidem, iusto cumque, sit dignissimos ullam praesentium ad corrupti totam omnis quod harum. Quo, quibusdam. Dignissimos.</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <h4>
+                                <i class="fas fa-file-contract"></i>
+                                Wills & Trusts
+                            </h4>
+                            <hr>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit et necessitatibus ipsa. Architecto, suscipit. Saepe eligendi magni facere nemo modi tenetur. Sed dolores sequi modi id beatae! Excepturi, quos est.</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <h4>
+                                <i class="fas fa-user-friends"></i>
+                                Consulting & Advisory
+                            </h4>
+                            <hr>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum vel in obcaecati a omnis error deserunt incidunt voluptatibus animi adipisci. Aperiam rem eveniet quod, molestias placeat culpa qui optio accusantium?</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <h4>
+                                <i class="fas fa-dollar-sign"></i>
+                                Cash Management
+                            </h4>
+                            <hr>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, sed? Quidem minus blanditiis veniam quam possimus, expedita ducimus quod eius eum praesentium ipsa quisquam? Quaerat error ipsam molestias repellendus ut.</p>
+                        </div>
+                    </div>
                 </div>
             </section>
 
@@ -83,7 +145,7 @@
                 <div class="container">
                     <h3>Contact Us</h3>
 
-                    <ul class="fa-ul mb-4 ml-0 text-center">
+                    <ul class="fa-ul mb-4 ml-0">
                         <li id="mail-address">
                             <a rel="noreferrer" href="mailto: mikelewisholdings@gmail.com">
                                 <i class="fas fa-envelope-open mr-2 contact-icons"></i>
@@ -96,25 +158,25 @@
                         </li>
                         <li>
                             <div id="social-icons">
-                                <a rel="noreferrer" title="LinkedIn" aria-label="LinkedIn" href="https://linkedin.com/in/riley-lewis-0383562b/" target="_blank" class="btn-floating btn-li mx-1">
+                                <a rel="noreferrer" title="LinkedIn" aria-label="LinkedIn" href="https://linkedin.com/in/riley-lewis-0383562b/" target="_blank" class="btn-floating btn-li mx-1 text-center">
                                     <i class="fab fa-linkedin"></i>
                                 </a>
                             </div>
                         </li>
                     </ul>
 
-                    <form class="contact-form d-flex flex-column align-items-center" method="POST">
-                        <div class="form-group w-75">
+                    <form class="contact-form d-flex flex-column align-items-left" method="POST">
+                        <div class="form-group">
                             <input type="name" id="contact-name" class="form-control" placeholder="Name" name="name" aria-label="name" required />
                         </div>
-                        <div class="form-group w-75">
+                        <div class="form-group">
                             <input type="email" id="contact-email" class="form-control" placeholder="Email" name="email" aria-label="email" required />
                         </div>
-                        <div class="form-group w-75">
+                        <div class="form-group">
                             <textarea class="form-control" id="contact-message" type="text" placeholder="Message" rows="7" name="message" aria-label="message" required></textarea>
                         </div>
 
-                        <button class="btn btn-submit btn-info w-75" onclick="sendMail();">Submit</button>
+                        <button class="btn btn-submit btn-info" onclick="sendMail();">Submit</button>
                         <div id="contact-status" class="w-75"></div>
                     </form>
                 </div>

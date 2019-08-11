@@ -17,8 +17,12 @@ h3 {
 
     font-size: 2.25rem;
     font-weight: 700;
-    text-align: center;
+    /* text-align: center; */
     text-transform: uppercase;
+}
+h4 {
+    text-transform: uppercase;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
 }
 
 /* Navigation */
@@ -89,6 +93,9 @@ h3 {
 /* Contact */
 #contact .btn-submit {
     background-color: #263238 !important;
+}
+#contact textarea {
+    resize: none;
 }
 
 /* Footer */
